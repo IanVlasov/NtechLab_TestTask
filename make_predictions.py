@@ -9,18 +9,18 @@ from torch.utils import data
 from src.nn_structure import Net
 
 def make_predictions(path):
-     """Function makes predictions and saves them in file
-     'process_results.json' in the given {path}
-     Fotos should be stored inside additional folder in the
-     given path (e.g. "path/data")
-     
-     Input
-     -------
-     path: path where the file with results should be saved
-              Fotos should be stored inside additional folder in the
-              given path (e.g. "path/data")
-     """
+    """Function makes predictions and saves them in file
+    'process_results.json' in the given {path}
+    Fotos should be stored inside additional folder in the
+    given path (e.g. "path/data")
     
+    Input
+    -------
+    path: path where the file with results should be saved
+             Fotos should be stored inside additional folder in the
+             given path (e.g. "path/data")
+    """
+     
     cur_dir = os.getcwd()
     output_dict = {}
     
