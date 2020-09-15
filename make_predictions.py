@@ -6,7 +6,7 @@ import numpy as np
 
 from torchvision import datasets, transforms
 from torch.utils import data
-# from src.nn_structure import Net
+from src.nn_structure import Net
 
 def make_predictions(path):
      """Function makes predictions and saves them in file
