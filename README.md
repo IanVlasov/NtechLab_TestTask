@@ -1,4 +1,4 @@
-# NtechLab_TestTask ML_task
+# Photo_by_gender_classification
 
 ## Структура проекта
 
